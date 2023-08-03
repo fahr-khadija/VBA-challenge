@@ -8,11 +8,17 @@ Create a script that loops through all the stocks for one year and outputs the f
 #### 1-Algoritme 
  ##### Retrieval of Data 
 •	The script loops through one year of stock data and reads/ stores all of the following values from each row:
-o	ticker symbol o	volume of stock o	open price o close price 
-##### Column Creation 
+ ###### o	ticker symbol 
+ ###### o	volume of stock 
+ ###### o	open price 
+ ###### o close price 
+ ##### Column Creation 
 •	On the same worksheet as the raw data, or on a new worksheet all columns were correctly created for:
-o	ticker symbol o	total stock volume o	yearly change ($) o	percent change 
-##### Conditional Formatting 
+ ###### o	ticker symbol 
+###### o	total stock volume 
+   ##### o	yearly change ($) 	
+   ##### o percent change 
+ ##### Conditional Formatting 
 •	Conditional formatting is applied correctly and appropriately to the yearly change column 
 •	Conditional formatting is applied correctly and appropriately to the percent change column 
 #### 2-Code "Module1
