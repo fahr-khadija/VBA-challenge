@@ -33,9 +33,9 @@ Create a script that loops through all the stocks for one year and outputs the f
 •	Conditional formatting is applied correctly and appropriately to the percent change column
  ```
 If percentage_change < 0 Then
-                 Range("J" & Summary_Table_Row).Interior.ColorIndex = 3  ' Red
+                 Range("K" & Summary_Table_Row).Interior.ColorIndex = 3  ' Red
                  Else
-                 Range("J" & Summary_Table_Row).Interior.ColorIndex = 4  ' Green
+                 Range("K" & Summary_Table_Row).Interior.ColorIndex = 4  ' Green
 
  End If
 ```
