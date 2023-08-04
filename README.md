@@ -22,6 +22,7 @@ Create a script that loops through all the stocks for one year and outputs the f
 •	Conditional formatting is applied correctly and appropriately to the yearly change column 
 •	Conditional formatting is applied correctly and appropriately to the percent change column 
 #### 2-Code "Module1
+![Capture28](../main/)
 #### 3-Execution Module1
 •	The total stock volume of the stock. The result should match the following image:
 ### Second Code 
