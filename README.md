@@ -76,6 +76,8 @@ If percentage_change < 0 Then
 #### 3-Execution Module1
 •	The total stock volume of the stock. The result should match the following image:
 -![image](https://github.com/fahr-khadija/VBA-challenge/blob/main/year2018.jpg))
+-![image](https://github.com/fahr-khadija/VBA-challenge/blob/main/year2019.jpg))
+-![image](https://github.com/fahr-khadija/VBA-challenge/blob/main/year2020.jpg))
 ### Second Code 
 •	Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". 
 #### 1-Algoritme 
@@ -132,7 +134,7 @@ For j = 2 To lastrow
 #### 2-Code "Module2
 ![module2]([module2 - Copy.pdf](https://github.com/fahr-khadija/VBA-challenge/blob/main/module2%20-%20Copy.pdf))
 #### 3-Execution Module2
-  The solution is  in the following image:
+  
   
 
 
