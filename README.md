@@ -1,11 +1,12 @@
 # VBA-challenge
 ## Module 2 Challenge,coding with VBA in Excel
+
 ### First Code 
 Create a script that loops through all the stocks for one year and outputs the following information:
 •	The ticker symbol
 •	Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
 •	The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
-#### 1-Algoritme 
+### * [1-Algoritme ]
  ##### Retrieval of Data 
 •	The script loops through one year of stock data and reads/ stores all of the following values from each row:
   ```
@@ -74,7 +75,7 @@ If percentage_change < 0 Then
 ![module1]([module1 - Copy.pdf](https://github.com/fahr-khadija/VBA-challenge/blob/main/module1%20-%20Copy.pdf))
 #### 3-Execution Module1
 •	The total stock volume of the stock. The result should match the following image:
-![module1]([module1_year2018.pdf](https://github.com/fahr-khadija/VBA-challenge/blob/main/year2018.jpg))
+-![image](https://github.com/fahr-khadija/VBA-challenge/blob/main/year2018.jpg))
 ### Second Code 
 •	Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". 
 #### 1-Algoritme 
