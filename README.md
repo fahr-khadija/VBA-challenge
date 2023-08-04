@@ -8,6 +8,10 @@ Create a script that loops through all the stocks for one year and outputs the f
 #### 1-Algoritme 
  ##### Retrieval of Data 
 •	The script loops through one year of stock data and reads/ stores all of the following values from each row:
+  ```
+  ' Loop through all ticker purchases
+    For i = 2 To lastrow
+```
  ###### o	ticker symbol 
  ###### o	volume of stock 
  ###### o	open price 
@@ -18,6 +22,33 @@ Create a script that loops through all the stocks for one year and outputs the f
  ###### o	total stock volume 
  ###### o	yearly change ($) 	
  ###### o percent change 
+
+```          
+  ' Check if we are still within the same ticker, if it is not...
+If Cells(i + 1, 1).Value <> Cells(i, 1).Value Then
+
+  ' Set the new value of ticker and it s close_value
+      Ticker = Cells(i, 1).Value
+      close_value = Cells(i, 6).Value
+      
+  ' Add  the Total volume
+      Total_volume = Total_volume + Cells(i, 7).Value
+  ' Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
+      Yearly_change = close_value - open_value
+  ' The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
+     percentage_change = Yearly_change / open_value
+```
+
+```
+  ' Print the ticker in the Summary Table
+      Range("I" & Summary_Table_Row).Value = Ticker
+  ' Print the yearly change in the Summary Table
+      Range("J" & Summary_Table_Row).Value = Yearly_change
+  ' Print the percentage change in the Summary Table
+      Range("K" & Summary_Table_Row).Value = percentage_change
+  ' Print the Total_volume in the Summary Table
+      Range("L" & Summary_Table_Row).Value = Total_volume
+```
 
  ##### Conditional Formatting 
 •	Conditional formatting is applied correctly and appropriately to the yearly change column 
