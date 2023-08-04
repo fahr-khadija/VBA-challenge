@@ -15,9 +15,10 @@ Create a script that loops through all the stocks for one year and outputs the f
  ##### Column Creation 
  •	On the same worksheet as the raw data, or on a new worksheet all columns were correctly created for:
  ###### o	ticker symbol 
-  ###### o	total stock volume 
-   ##### o	yearly change ($) 	
-   ##### o percent change 
+ ###### o	total stock volume 
+ ###### o	yearly change ($) 	
+ ###### o percent change 
+
  ##### Conditional Formatting 
 •	Conditional formatting is applied correctly and appropriately to the yearly change column 
 ```            
